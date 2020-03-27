@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="webcamjs/webcam.min.js"></script>
+    <script src="js/aws-cognito-sdk.js"></script>
+    <script src="js/amazon-cognito-identity.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.16.0.min.js"></script>
+    <script src="js/rekognition.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div id="my_camera"></div>
+    <input type=button id="snapshot" value="Take Snapshot">
+
+    <div id="results" ></div>
+
+    <div id="Rekognition results" ></div>
+    <h1> Rekognition Result </h1>
+    <p id="opResult"></p>
+    <h1> Rekognition User Id </h1>
+    <p id="uidResult"></p>
+  </body>
+</html>
